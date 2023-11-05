@@ -1,0 +1,210 @@
+html{
+  background-color: green;
+  font-family: 'Nova Square',cursive;
+}
+button{
+        font-size: medium;
+        width: 5cm; 
+        height: 2cm; 
+        left: 540px; 
+        top: 850px; 
+        position: relative;
+        cursor: pointer;
+        border-radius: 3mm;
+        letter-spacing: 4px;
+        font-weight: 700;
+        z-index: 1;
+        overflow: hidden;
+        background-color: #537895;
+       
+      }
+      .startButton::before{
+        content: '';
+        width: 0; 
+        height: 2cm; 
+        border-radius: 2mm;
+        position: absolute;
+        left: 0; 
+        top: 0; 
+        background-image: linear-gradient(
+        to bottom right,skyblue 0%, skyblue 100%);
+        transition: 450ms ease-in;
+        z-index: -1;
+      }
+      
+      
+      .startButton:hover::before{
+        width: 5cm;
+      }
+    .glow-button{
+    cursor: pointer;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+    }
+    .glow-button:hover {
+      background-color: #4CAF50;
+      box-shadow: 0 0 10px #4CAF50, 0 0 20px #4CAF50, 0 0 30px #4CAF50;
+    }
+    .black-board{
+      width: 1117px; 
+      height: 766px; 
+      left: 150px; 
+      top: 99px; 
+      position: absolute;
+    }
+    .tree1{
+      width: 215px; 
+      height: 259px; 
+      left: 1203px; 
+      top: 690px; 
+      position: absolute;
+    }
+    .tree2{
+      width: 215px; 
+      height: 259px; 
+      left: 222px; 
+      top: 662px; 
+      position: absolute;
+    }
+    .tree3{
+      width: 185px;
+      height: 231px; 
+      left: 1018px; 
+      top: 662px; 
+      position: absolute;
+    }
+    .round-grass{
+      width: 1540px; 
+      height: 476px; 
+      left: 0px; 
+      top: 855px; 
+      position: absolute; 
+      background: #8FE866; 
+      border-radius: 9999px;
+      z-index: -1;
+    }
+    .grass1{
+      width: 178px; 
+      height: 122px; 
+      left: 222px; 
+      top: 820px; 
+      position: absolute;
+      
+    }
+    .grass2{
+      width: 178px; 
+      height: 122px; 
+      left: 350px; 
+      top: 942px; 
+      position: absolute;
+    }
+    .grass3{
+      width: 178px; 
+      height: 122px; 
+      left: 746px; 
+      top: 924px; 
+      position: absolute;
+    }
+    .grass4{
+      width: 178px; 
+      height: 122px; 
+      left: 0px; 
+      top: 921px; 
+      position: absolute;
+    }
+    .grass5{
+      width: 178px; 
+      height: 122px; 
+      left: 869px; 
+      top: 820px;
+      position: absolute;
+    }
+    .grass6{
+      width: 178px; 
+      height: 122px; 
+      left: 1080px; 
+      top: 942px; 
+      position: absolute;
+    }
+    .ulap1{
+      width: 203px; 
+      height: 238px; 
+      left: 138px; 
+      top: 181px; 
+      position: absolute;
+    }
+    .ulap2{
+      width: 342px; 
+      height: 401px; 
+      left: 158px; 
+      top: -50px; 
+      position: absolute;
+    }
+    .ulap3{
+      width: 342px; 
+      height: 401px; 
+      left: 158px; 
+      top: -50px; 
+      position: absolute;
+    }
+    .ulap4{
+      width: 231px;
+      height: 229px; 
+      left: 1168px; 
+      top: -50px; 
+      position: absolute;
+    }
+    .ulap5{
+      width: 342px; 
+      height: 401px; 
+      left: -136px; 
+      top: 166px; 
+      position: absolute;
+    }
+    .ulap6{
+      width: 342px; 
+      height: 401px; 
+      left: -136px; 
+      top: 166px; 
+      position: absolute;
+    }
+    .ulap7{
+      width: 342px; 
+      height: 401px; 
+      left: -136px; 
+      top: 166px; 
+      position: absolute;
+    }
+    .araw{
+      width: 295px; 
+      height: 346px; 
+      left: -13px; 
+      top: -50px;
+      position: absolute;
+    }
+    .ready{
+      width: 672px; 
+      height: 189px; 
+      left: 407px; 
+      top: 323px; 
+      position: absolute; 
+      text-align: center; 
+      color: white; 
+      font-size: 64px; 
+      font-family: 'Nova Square',cursive; 
+      font-weight: 400; 
+      word-wrap: break-word;
+    }
+    .boy{
+      width: 592px; 
+      height: 406px; 
+      left: 869px; 
+      top: 631px; 
+      position: absolute;
+    }
+    .girl{
+      width: 580px; 
+      height: 397px; 
+      left: 60px; 
+      top: 682px; 
+      position: absolute;
+    }

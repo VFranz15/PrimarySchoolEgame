@@ -1,0 +1,123 @@
+html{
+    background-color: green;
+    font-family: 'Nova Square',cursive;
+}
+.background{
+position: absolute;
+width: 100%;
+height: 100%;
+object-fit: cover;
+z-index: -2;
+}
+.blackboard{
+    width: 1444px; 
+    height: 928px; 
+    position: absolute;
+    top: 500px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: -1;
+    
+}
+.orange-bar{
+    position: absolute;
+    width: 1038px;
+    height: 178px;
+    background: #FC9252;
+    border-radius: 70px;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.main-title{
+    position: absolute;
+    width: 100%;
+    top: 20px;
+    text-align: center;
+    font-size: 36px;
+    font-weight: 400;
+    color: white;
+}
+.green-bar{
+    position: absolute;
+    width: 800px;
+    height: 175px;
+    background: darkgreen;
+    border-radius: 70px;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+}
+.question{
+    position: absolute;
+    width: 100%;
+    top: 43%;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 350;
+    color: white;
+    z-index: 2;
+}
+.options {
+    height: 100px;
+    display: flex;
+    flex-direction:row;
+    gap: 50px;
+    position: absolute;  
+    bottom: 150px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.options button {
+    background-color: darkgreen;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    transition: background-color 0.3s;
+}
+
+.options button:hover {
+    background-color: darkgreen;
+    box-shadow: 0 0 10px #5cfc92, 0 0 20px #5CFC92, 0 0 30px #5CFC92;
+}
+.exit button{
+    font-size: small;
+    font-family: 'Nova Square',cursive;
+    color: white;
+    left: 1100px; 
+    bottom: 0;
+    position: absolute;
+    cursor: pointer;
+    background-color: red;
+}
+.exit button:hover{
+    background-color: red;
+    box-shadow: 0 0 10px #cc5050, 0 0 20px #cc5050, 0 0 30px #cc5050;
+}
+.spoon{
+    z-index: 3;
+    left: 25%;
+    top: 37%;
+    position: absolute;
+    width: 125px;
+    height: 125px;
+}
+.next-page button{
+    font-size: small;
+    font-family: 'Nova Square',cursive;
+    color: black;
+    left: 350px; 
+    bottom: 0;
+    position: absolute;
+    cursor: pointer;
+    background-color: #5CFC92;
+}
+.next-page button:hover{
+    background-color: r#5CFC92;
+    box-shadow: 0 0 10px #5CFC92, 0 0 20px #5CFC92, 0 0 30px #5CFC92;
+}
